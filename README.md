@@ -1,1 +1,1 @@
-My personal webpage. The search website and Send feedback form are non-functional.
+My personal webpage. The search website section and Send feedback form are non-functional.
