@@ -1,0 +1,122 @@
+<!--REFERENCES-->
+<!--https://www.freepik.com/free-photos-vectors/website-background-->
+<!DOCTYPE html>
+<html>
+    <!--Added div elements to do CSS website moderations-->
+    <!--Put page title between header element-->
+    <head>
+    <title>Personal Webpage</title>
+    <link href="WebStyleRules.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <!--Include all CV information within the body-->
+    <body class="page">
+    
+    <div class="bio">
+    <!--Short bio containing three paragraphs-->
+    <h1>Short Bio</h1>
+
+    <!--First paragraph is a self description-->
+        <h2>Description</h2>
+        <p>
+            I am Wesley Naude. I am 24 years old. I live in Cape Town, South Africa. 
+            I am a person who likes structure and people being truthful.
+        </p>
+
+    <!--Second paragraph is about passions-->
+        <h2>Passions</h2>
+        <p>
+            I am an avid horse racing fan and punter. I also like watching rugby and boxing.
+            I have also recently started running in long distance races and enjoy that very much.
+        </p>
+
+    <!--Third paragraph is about motivations and ambitions-->
+        <h2>Motivations and ambitions</h2>
+        <p>
+            I want to make a career of being a software engineer.
+            I am motivated by the advancements in technology and believe if in the right hands, technology can be used to make our lives easier.
+        </p>
+    </div>
+
+    <!--Paragraphs with information about contact details-->
+    <div class="contact">
+        <h1>Contact Details</h1>
+        <p>Name: Wesley Naude</p>
+        <p>Contact number: 082 317 7667</p>
+        <p>Email address: wesley.naude2015@gmail.com</p>
+    </div>
+    
+    <!--I don't have a professional social media so I don't have any links to them-->
+    <!---Potrait image of me with height and width specifications-->
+        <img src="me.jpg" height="300" width="300">
+
+    <!--Unordered list of skills and competencies-->
+    <div class="skills">
+        <h1>Skills and Competencies</h1>
+        <ul>
+        <!--Within unordered list are list items-->
+            <li>Python programming</li>
+            <li>SQLite3</li>
+            <li>Databases and Networks basics</li>
+            <li>Internal Auditing basics</li>
+            <li>Systems analysis and design basics</li>
+            <li>Business management basics</li>
+            <li>Corporate governance basics</li>
+        </ul>
+    </div>
+
+    <!--Description of education in another unordered list-->
+    <div class="education">
+        <h1>Education</h1>
+        <ul>
+            <li>Matric certificate(2017)</li>
+            <li>Bcom in business informatics(2020-2023)</li>
+            <li>Hyperiondev software development course(Current)</li>
+        </ul>
+    </div>
+
+    <!--Paragraph describing work experience-->
+    <div class="workXp">
+        <h1>Work Experience</h1>
+        <p>Work shadow a civil engineer for school task(2016)</p>
+    </div>
+
+    <!--Search form for webpage-->
+    <div class="search">
+        <h1>Search Website</h1>
+    <!--Use 'get' method for searching items-->
+        <form method="get">
+        <!--Input element with type, id and name attributes-->
+        <!--Added search button-->
+            <input type="search" id="searchSite" name="q"/>
+            <button>Search</button>
+        </form>
+    </div>
+
+    <!-- Visitor feedback form-->
+    <div class="feedback">
+        <h1>Send Feedback</h1>
+    <!--Use 'post' method to allow visitors to provide feedback-->
+        <form method="post">
+        <!--Use label to describe required input-->
+        <!--Input is of type 'text'-->
+        <!--Add submit button-->
+        <!--Add extra line breaks -->
+            <label>First name: </label>
+            <input type="text"><br>
+            <br>
+            <label>Surname: </label>
+            <input type="text"><br>
+            <br>
+            <label>E-mail address</label>
+            <input type="text"><br>
+            <br>
+            <label>Message box: </label><br>
+            <input type="text">
+            <button>Submit</button>
+        </form>
+    </div>
+
+    </body>
+
+</html>
