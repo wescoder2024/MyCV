@@ -56,8 +56,6 @@ img{
 
 .feedback{
   display:grid;
-  grid-template-columns: 200px 1fr;
-  grid-gap: 16px;
   grid-column: 1/3;
   grid-row: 13;
   font-style: oblique;
